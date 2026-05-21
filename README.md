@@ -9,7 +9,7 @@ This project is a Machine Learning based Phishing Email Detection Model. It is b
 
 Phishing emails are fake emails that try to steal sensitive information such as passwords, bank details, or personal data. This project helps identify such suspicious emails using text analysis and machine learning.
 
----
+
 
 ## Problem Statement
 
@@ -27,7 +27,7 @@ Build a machine learning model using Scikit-learn that can train on phishing and
 - Displays confusion matrix
 - Provides a simple Flask web interface for testing emails
 
----
+
 
 ## Technologies Used
 
@@ -39,7 +39,7 @@ Build a machine learning model using Scikit-learn that can train on phishing and
 - CSS
 - Joblib
 
----
+
 
 ## Machine Learning Algorithm Used
 
@@ -47,7 +47,7 @@ The project uses **Logistic Regression** for classification.
 
 The email text is converted into numerical features using **TF-IDF Vectorizer**. These features are then given to the Logistic Regression model to predict whether the email is phishing or safe.
 
----
+
 
 ## Project Structure
 
